@@ -1,0 +1,118 @@
+.aboutMe {
+    width: 60%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.aboutMe h2 {
+    font-size: 1.1rem;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.technology h5 {
+    width: 45%;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.technology h5 p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: 500ms;
+    font-weight: bold;
+}
+
+.technology h5 p:hover {
+    transform: scale(1.1);
+}
+
+.technology h5 p i {
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+#html5 {
+    color: orangered;
+}
+
+#css3 {
+    color: blue;
+}
+
+#react {
+    color: #48CEF7;
+}
+
+#node {
+    color: #6AA05C;
+}
+
+.sectionFormation {
+    width: 60%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.sectionFormation h3 {
+    margin: 30px 0;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.trainingDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.formation {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.formation span {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.formation h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.formation p {
+    font-size: 0.8rem;
+}
