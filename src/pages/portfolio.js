@@ -1,5 +1,8 @@
 import Head from 'next/head';
-import Header from "./components/Header";
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Main from '../components/Main';
+import Projects from '../components/Projects';
 
 export default function Portfolio() {
     return (
@@ -9,6 +12,9 @@ export default function Portfolio() {
                 <title>Portfolio | Guilherme Dev</title>
             </Head>
             <Header />
+            <Main />
+            <Projects />
+            <Footer />
         </>
     )
 }

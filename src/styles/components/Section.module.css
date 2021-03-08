@@ -12,6 +12,35 @@
     font-weight: normal;
 }
 
+.avatar {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.avatar h2 {
+    line-height: 30px;
+}
+
+.avatarImg {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.avatarImg img {
+    width: 15%;
+    min-width: 120px;
+    border-radius: 50%;
+}
+
 .technology {
     display: flex;
     flex-direction: row;
@@ -21,28 +50,36 @@
     border-bottom: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-.technology h5 {
-    width: 45%;
-    font-size: 1.1rem;
-    font-weight: normal;
-}
-
-.technology h5 p {
+.left,
+.right {
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid gray;
-    border-radius: 10px;
-    transition: 500ms;
-    font-weight: bold;
+    flex-direction: column;
 }
 
-.technology h5 p:hover {
+.left h4,
+.right h4 {
+    margin: 20px 0;
+}
+
+.left p,
+.right p {
+    border: 1px solid gray;
+    padding: 15px;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    transition: 500ms;
+}
+
+.left p:hover,
+.right p:hover {
     transform: scale(1.1);
 }
 
-.technology h5 p i {
+.left p i,
+.right p i {
     margin-right: 15px;
     font-size: 50px;
 }
@@ -68,7 +105,7 @@
     max-width: 1000px;
     display: flex;
     flex-direction: column;
-    margin: 30px auto;
+    margin: 30px auto 50px;
 }
 
 .sectionFormation h3 {
@@ -115,4 +152,37 @@
 
 .formation p {
     font-size: 0.8rem;
+}
+
+@media (max-width: 1000px) {
+    .aboutMe {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .aboutMe {
+        width: 90%;
+    }
+
+    .avatar {
+        flex-direction: column;
+    }
+
+    .avatarImg {
+        margin-bottom: 20px;
+    }
+
+    .technology {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .sectionFormation {
+        width: 90%;
+    }
 }

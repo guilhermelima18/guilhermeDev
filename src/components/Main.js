@@ -1,4 +1,4 @@
-import styles from '../../styles/components/Main.module.css';
+import styles from '../styles/components/Main.module.css';
 
 export default function Main() {
     return (

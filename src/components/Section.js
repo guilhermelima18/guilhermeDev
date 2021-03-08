@@ -1,25 +1,30 @@
-import styles from '../../styles/components/Section.module.css';
+import styles from '../styles/components/Section.module.css';
 
 export default function Section() {
     return (
         <>
             <section className={styles.aboutMe}>
-                <h2>
-                    Olá, me chamo Guilherme Lima, tenho 25 anos.<br />
-                Atualmente estou cursando Técnico em Desenvolvimento de Sistemas<br />
-                e estou em busca do meu primeiro emprego na área de Desenvolvimento Web.
-            </h2>
+                <div className={styles.avatar}>
+                    <div className={styles.avatarImg}>
+                        <img src="https://avatars.githubusercontent.com/u/60123147?s=460&u=40de475fddcfeca4220eba6ec78f0bb6d2c9b2a9&v=4" alt="Foto de perfil" />
+                    </div>
+                    <h2>
+                        Olá, me chamo Guilherme Lima, tenho 25 anos.<br />
+                        Atualmente estou cursando Técnico em Desenvolvimento de Sistemas<br />
+                        e estou em busca do meu primeiro emprego na área de Desenvolvimento Web.
+                    </h2>
+                </div>
                 <div className={styles.technology}>
-                    <h5>
-                        Tecnologias Front-End:<br /><br />
+                    <div className={styles.left}>
+                        <h4>Tecnologias Front-End:</h4>
                         <p><i id={styles.html5} className="fab fa-html5"></i>HTML</p><br />
                         <p><i id={styles.css3} className="fab fa-css3-alt"></i>CSS</p><br />
                         <p><i id={styles.react} className="fab fa-react"></i>React.JS - Next.JS</p><br />
-                    </h5>
-                    <h5>
-                        Tecnologias Back-End:<br /><br />
+                    </div>
+                    <div className={styles.right}>
+                        <h4>Tecnologias Back-End:</h4>
                         <p><i id={styles.node} className="fab fa-node"></i>Node.JS - Express.JS</p>
-                    </h5>
+                    </div>
                 </div>
             </section>
             <section className={styles.sectionFormation}>
