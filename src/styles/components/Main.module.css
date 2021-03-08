@@ -10,7 +10,7 @@
 }
 
 .background {
-    background: url('../../../public/assets/background.svg') no-repeat;
+    background: url('../../../public/background.svg') no-repeat;
     background-size: 450px;
     background-position: right;
     width: 90%;

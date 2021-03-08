@@ -31,7 +31,7 @@ export default function Section() {
                 <h3>Formação Acadêmica</h3>
                 <div className={styles.trainingDescription}>
                     <div className={styles.logo}>
-                        <img src="assets/etec.png" alt="Logo da Etec" />
+                        <img src="etec.png" alt="Logo da Etec" />
                     </div>
                     <div className={styles.formation}>
                         <span>Técnico em Desenvolvimento de Sistemas</span>
@@ -41,7 +41,7 @@ export default function Section() {
                 </div>
                 <div className={styles.trainingDescription}>
                     <div className={styles.logo}>
-                        <img src="assets/etec.png" alt="Logo da Etec" />
+                        <img src="etec.png" alt="Logo da Etec" />
                     </div>
                     <div className={styles.formation}>
                         <span>Técnico em Informática</span>
