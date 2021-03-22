@@ -19,11 +19,13 @@ export default function Section() {
                         <h4>Tecnologias Front-End:</h4>
                         <p><i id={styles.html5} className="fab fa-html5"></i>HTML</p><br />
                         <p><i id={styles.css3} className="fab fa-css3-alt"></i>CSS</p><br />
-                        <p><i id={styles.react} className="fab fa-react"></i>React.JS - Next.JS</p><br />
+                        <p><i id={styles.js} className="fab fa-js-square"></i>Javascript</p><br />
+                        <p><i id={styles.react} className="fab fa-react"></i>ReactJS e NextJS</p><br />
                     </div>
                     <div className={styles.right}>
                         <h4>Tecnologias Back-End:</h4>
-                        <p><i id={styles.node} className="fab fa-node"></i>Node.JS - Express.JS</p>
+                        <p><i id={styles.node} className="fab fa-node"></i>NodeJS e ExpressJS</p><br />
+                        <p><i id={styles.git} className="fab fa-github-square"></i>Git e Github</p>
                     </div>
                 </div>
             </section>

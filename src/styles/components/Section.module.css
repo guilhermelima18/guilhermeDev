@@ -97,8 +97,16 @@
     color: #48CEF7;
 }
 
+#js {
+    color: #EFD81D;
+}
+
 #node {
     color: #6AA05C;
+}
+
+#git {
+    color: black;
 }
 
 .sectionFormation {
