@@ -13,12 +13,12 @@ export default function Projects() {
                     </div>
                     <div className={styles.card}>
                         <p>Finance Control</p>
-                        <img src="financeControl.jpg" alt="Projeto Finance Control" />
+                        <img src="finance.JPG" alt="Projeto Finance Control" />
                         <a target="_blank" href="https://github.com/guilhermelima18/Finance-Control">Ver projeto</a>
                     </div>
                     <div className={styles.card}>
                         <p>Gym Manager</p>
-                        <img src="gym.jpg" alt="Projeto Gym Manager" />
+                        <img src="gym.JPG" alt="Projeto Gym Manager" />
                         <a target="_blank" href="https://github.com/guilhermelima18/GymManager">Ver projeto</a>
                     </div>
                     <div className={styles.card}>
