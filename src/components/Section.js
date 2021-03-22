@@ -11,7 +11,7 @@ export default function Section() {
                     <h2>
                         Olá, me chamo Guilherme Lima, tenho 25 anos.<br />
                         Atualmente estou cursando Técnico em Desenvolvimento de Sistemas<br />
-                        e estou em busca do meu primeiro emprego na área de Desenvolvimento Web.
+                        e estou em busca do meu primeiro emprego na área de Desenvolvimento de Software.
                     </h2>
                 </div>
                 <div className={styles.technology}>
