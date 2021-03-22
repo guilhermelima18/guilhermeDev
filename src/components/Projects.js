@@ -8,7 +8,7 @@ export default function Projects() {
                 <main className={styles.main}>
                     <div className={styles.card}>
                         <p>Ecoleta</p>
-                        <img id={styles.ecoleta} src="ecoleta.jpg" alt="Projeto Ecoleta" />
+                        <img id={styles.ecoleta} src="ecoleta.JPG" alt="Projeto Ecoleta" />
                         <a target="_blank" href="https://github.com/guilhermelima18/Ecoleta">Ver projeto</a>
                     </div>
                     <div className={styles.card}>
