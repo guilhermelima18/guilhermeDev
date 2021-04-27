@@ -1,4 +1,4 @@
-import styles from '../styles/components/Section.module.css';
+import styles from './styles.module.css';
 
 export default function Section() {
   return (
